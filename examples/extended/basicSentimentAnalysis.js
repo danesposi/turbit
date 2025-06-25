@@ -42,7 +42,7 @@ const analyzeSentiment = function (reviews) {
     "bad": -1, "terrible": -2, "horrible": -3, "awful": -2, "disappointing": -2,
     "poor": -1, "worst": -3, "hate": -2, "dislike": -1, "unhappy": -2,
     "frustrated": -2, "angry": -2, "annoyed": -1, "upset": -2, "disgusted": -3,
-    "awful": -2, "dreadful": -3, "atrocious": -3, "miserable": -2, "depressing": -2
+    "dreadful": -3, "atrocious": -3, "miserable": -2, "depressing": -2
   };
 
   const neutralWords = {

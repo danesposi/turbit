@@ -258,8 +258,12 @@ const main = async function () {
 
     console.log("\n📈 Overall Statistics:");
     console.log(`• Total tasks executed: ${totalTasks}`);
-    console.log(`• Combined execution time: ${(greetingResult.stats.timeTakenSeconds + computationResult.stats.timeTakenSeconds + ioResult.stats.timeTakenSeconds + dataResult.stats.timeTakenSeconds).toFixed(2)}s`);
-    console.log(`• Average tasks per second: ${(totalTasks / (greetingResult.stats.timeTakenSeconds + computationResult.stats.timeTakenSeconds + ioResult.stats.timeTakenSeconds + dataResult.stats.timeTakenSeconds)).toFixed(0)}`);
+    const totalExecutionTime = greetingResult.stats.timeTakenSeconds + 
+      computationResult.stats.timeTakenSeconds + 
+      ioResult.stats.timeTakenSeconds + 
+      dataResult.stats.timeTakenSeconds;
+    console.log(`• Combined execution time: ${totalExecutionTime.toFixed(2)}s`);
+    console.log(`• Average tasks per second: ${(totalTasks / totalExecutionTime).toFixed(0)}`);
 
   } catch (error) {
     console.error("❌ Error in task runner:", error.message);

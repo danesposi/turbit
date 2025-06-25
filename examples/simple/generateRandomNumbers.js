@@ -180,16 +180,19 @@ const main = async function () {
 }
 
 // Handle process termination gracefully
-process.on('SIGINT', () => {
-  console.log('\n🛑 Received SIGINT, cleaning up...');
+const cleanup = () => {
   turbit.kill();
   process.exit(0);
+};
+
+process.on('SIGINT', () => {
+  console.log('\n🛑 Received SIGINT, cleaning up...');
+  cleanup();
 });
 
 process.on('SIGTERM', () => {
   console.log('\n🛑 Received SIGTERM, cleaning up...');
-  turbit.kill();
-  process.exit(0);
+  cleanup();
 });
 
 // Run the example

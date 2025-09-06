@@ -9,12 +9,7 @@
  * Find the project on GitHub:
  * https://github.com/jofpin/turbit
  *
- * ===============================
- * Copyright (c) 2024 by Jose Pino
- * ===============================
  *
- * Released on: August 2, 2024
- * Last update: August 2, 2024
  *
  */
 if (typeof process === "undefined" || !process.versions || !process.versions.node) {

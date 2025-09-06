@@ -4,7 +4,6 @@
  *
  * @author Jose Pino
  * @contact jose@pino.sh (https://x.com/jofpin)
- * @license MIT
  *
  * Find the project on GitHub:
  * https://github.com/jofpin/turbit

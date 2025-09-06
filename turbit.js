@@ -4,7 +4,6 @@
  *
  * @author Jose Pino
  * @contact jose@pino.sh (https://x.com/jofpin)
- * @version 1.0.0
  * @license MIT
  *
  * Find the project on GitHub:

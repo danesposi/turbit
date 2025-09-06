@@ -19,28 +19,6 @@ Turbit is an advanced high-speed multicore computing library in Node.js, designe
 | Batch Processing | Process large datasets quickly and efficiently |
 | Complex Algorithmic Operations | Speed up execution of complex algorithms and mathematical operations |
 
-## Inspiration
-
-As a researcher, I often struggled to find a truly user-friendly implementation for parallel processing in Node.js. Most existing solutions were not user-friendly, complex, and unwieldy, making it challenging to efficiently harness CPU power for high-performance tasks. This inspired me to create Turbit, a library that simplifies parallel processing in applications and processes, allowing developers to easily tap into the full potential of their hardware without getting bogged down in implementation details. With AI advancements, many people have chosen to exclusively use the GPU to process data and perform complex tasks. However, although the CPU is not always directly compared to the GPU in terms of performance for certain tasks, it also has great potential that should not be underestimated. Turbit facilitates the harnessing of this potential, enabling efficient parallel processing on the CPU.
-
-_*One of my goals when creating things is always to simplify them as much as possible for others and, of course, to make them unique.*_
-
-> The code is art, akin to music and other creative fields. I created Turbit out of passion and love for coding. Writing code is not just a daily habit for me, it's a task of focus and discipline, driven by my lifelong love for technology. During the final stages of developing this library and its two powerful use cases, throughout the code writing process, I constantly listened to some songs that I'd like to share:
->
-> - [Monaco](https://www.youtube.com/watch?v=_PJvpq8uOZM) - Bad Bunny: "Dime (dime), dime, ¿esto es lo que tú querías?"
-> - [Los Pits](https://www.youtube.com/watch?v=yaHf1FwMYA4) - Bad Bunny: "Te lo dije que me hacía millo antes de los treinta."
-> - [1 of 1](https://www.youtube.com/watch?v=21Z0GoTYqkE) - Maluma: "Mi carrera es una chimba 1 of 1, me voy y vuelvo y los bajo de number one."
-> - [Mírame](https://www.youtube.com/watch?v=zcw8NlHljF4) - Blessd: "No cualquiera puede aguantar mi ritmo."
-> - [Vuelve candy b](https://www.youtube.com/watch?v=UBVm40IONzw) - Bad Bunny: "¿Cómo tú vas a dudar del más cabrón que le mete?"
-> - [Otra noche en miami](https://www.youtube.com/watch?v=hoQmSA6MRAk) - Bad Bunny: "Todo es superficial, nada real, nada raro que el dinero no pueda comprar."
-> - [Decisions](https://www.youtube.com/watch?v=jQd5OEl1W-Q) - Borgore & Miley Cyrus: "Decisions, but I want it all."
-> - [Si tú supieras](https://www.youtube.com/watch?v=75gaEbTLqpg) - Feid: "Baby, perdón, pero el tiempo que no estoy contigo es tiempo perdido."
-> - [Brickell](https://www.youtube.com/watch?v=2p6O7EmroEs) - Feid: "Ojalá me hubieras dicho que era la última vez."
-> - [Meek Mill](https://www.youtube.com/watch?v=S1gp0m4B5p8) - Drake: "Playin' with my name, that's lethal, dawg (who you say you was?)"
-> - [La Jumpa](https://www.youtube.com/watch?v=ubbE6gyBf8k) - Arcangel & Bad Bunny: "Hoy tú te vas con una leyenda que no va a volver a nacer."
-
-As I reflect on this project, I can't help but wonder: Perhaps these are among the last lines of code written 100% by a human. Regardless, I hope you enjoy this code as much as I enjoyed writing it.
-
 > Always the same creative hacker, but more evolved. - [Jose Pino](https://x.com/jofpin)
 
 ## Getting Started

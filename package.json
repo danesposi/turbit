@@ -1,5 +1,5 @@
 {
-  "name": "turbit",
+  "name": "turbit-test",
   "version": "1.0.0",
   "description": "High-speed multicore computing library for optimizing intensive operations through parallel CPU processing.",
   "main": "turbit.js",

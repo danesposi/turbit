@@ -12,7 +12,7 @@ Turbit is an advanced high-speed multicore computing library in Node.js, designe
 > performance through parallel processing. **Turbit was designed for the multi-core era.**
 
 
-| Application | Description |
+| Application | Descriptio |
 |-------------|-------------|
 | Data Processing and Analysis | Efficiently handle and analyze large volumes of data |
 | Scientific Computations | Accelerate complex scientific calculations and simulations |

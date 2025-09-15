@@ -294,8 +294,6 @@ SpeedTest.benchmark({
 }); 
 ```
 
-## Tools Powered by Turbit
-
 I created these two powerful tools with unique interfaces to demonstrate the potential of Turbit through real-world applications:
 
 - [**synthBTC**](https://github.com/jofpin/synthBTC): A tool that leverages advanced Monte Carlo simulations to generate Bitcoin price prediction scenarios.

@@ -2,7 +2,7 @@
 
 ![turbit](assets/images/gh-cover.png)
 
-## High-speed Multicore Computing
+## High-speed Multicore Computin
 
 [![npm version](https://img.shields.io/npm/v/turbit.svg)](https://www.npmjs.com/package/turbit)
 
